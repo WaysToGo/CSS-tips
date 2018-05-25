@@ -6,3 +6,10 @@ or border-radius
 
 use rems for font sizes, pixels for borders, and ems for most other measures,
 especially paddings, margins, and border radius
+
+
+*,
+::before,
+::after {
+box-sizing: border-box;
+}
