@@ -16,6 +16,7 @@ box-sizing: border-box;
 ```
 
 More robust universal border-box fix
+third-party components with their own CSS might break if they are not using border-box 
 
 ```
 :root {
