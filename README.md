@@ -7,9 +7,24 @@ or border-radius
 use rems for font sizes, pixels for borders, and ems for most other measures,
 especially paddings, margins, and border radius
 
-
+```
 *,
 ::before,
 ::after {
 box-sizing: border-box;
 }
+```
+
+More robust universal border-box fix
+
+```
+:root {
+box-sizing: border-box;
+}
+*,
+::before,
+::after {
+
+box-sizing: inherit;
+}
+```
