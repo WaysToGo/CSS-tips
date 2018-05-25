@@ -28,4 +28,9 @@ box-sizing: border-box;
 
 box-sizing: inherit;
 }
+
+.third-party-component {
+box-sizing: content-box;
+}
 ```
+
